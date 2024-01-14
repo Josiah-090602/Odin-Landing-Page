@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font: Poppins;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+  --color1: #212A3E;
+  --color2: #394867;
+  --color3: #F1F6F9;
+  --colo4: #1B6B93;
+  --navbarHeight: 4rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    position: relative;
+
+}
+
+.navbar{
+    height: var(--navbarHeight);
+}
+
+.nav-item .nav-link{
+    color: var(--color3) !important;
+}
+
+#home, 
+#about, 
+#test,
+#events,
+#contact{
+    display: flex;
+    padding-top: var(--navbarHeight);
+    background-color: var(--color1) !important;
+    color: var(--color3);
+}
+
+
+
